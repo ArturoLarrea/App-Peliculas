@@ -15,7 +15,9 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         body: Column(
-          children: [CardSwiper()],
+          children: [
+            CardSwiper(),
+          ],
         ));
   }
 }
