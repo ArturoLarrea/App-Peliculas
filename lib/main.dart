@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light()
-          .copyWith(appBarTheme: const AppBarTheme(color: Colors.amber)),
+          .copyWith(appBarTheme: const AppBarTheme(color: Colors.indigo)),
       title: 'Flutter Demo',
       initialRoute: 'home',
       routes: {
         'home': (_) => const HomeScreen(),
-        'details': (_) => DetailScreen()
+        'details': (_) => const DetailScreen()
       },
     );
   }
